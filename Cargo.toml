@@ -10,7 +10,7 @@ description = "Fast and simple Node.js version manager"
 
 [dependencies]
 serde = { version = "1.0.149", features = ["derive"] }
-clap = { version = "3.2.23", features = ["derive", "env"] }
+clap = { version = "4.0.29", features = ["derive", "env"] }
 serde_json = "1.0.89"
 chrono = { version = "0.4.23", features = ["serde"] }
 tar = "0.4.38"
@@ -29,7 +29,7 @@ reqwest = { version = "0.11.13", features = ["blocking", "json", "rustls-tls", "
 url = "2.3.1"
 sysinfo = "0.27.1"
 thiserror = "1.0.37"
-clap_complete = "3.2.5"
+clap_complete = "4.0.6"
 anyhow = "1.0.66"
 
 [dev-dependencies]
